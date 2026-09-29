@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#00002a" />
+    <meta name="description" content="Haz que tu evento se viva, se comparta y se recuerde. Conoce la experiencia de espejo mágico para fiestas y eventos en Ciudad de México y Estado de México." />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:site_name" content="Lúmina" />
+    <meta property="og:title" content="Lúmina | Espejo mágico para eventos en CDMX y Estado de México" />
+    <meta property="og:description" content="Una experiencia frente al espejo que convierte cada evento en un momento para recordar." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preload" href="./fonts/unbounded-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./fonts/albert-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./models/espejo-magico-poster.webp" as="image" fetchpriority="high" />
+    <style>
+      @font-face { font-family: 'Unbounded'; font-style: normal; font-display: swap; font-weight: 200 900; src: url('./fonts/unbounded-latin.woff2') format('woff2'); }
+      @font-face { font-family: 'Albert Sans'; font-style: normal; font-display: swap; font-weight: 100 900; src: url('./fonts/albert-sans-latin.woff2') format('woff2'); }
+    </style>
+    <title>Lúmina | Renta de espejo mágico para eventos en CDMX</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Service",
+            "name": "Renta de espejo mágico para eventos",
+            "description": "Experiencia de espejo mágico interactivo para fiestas y eventos.",
+            "serviceType": "Renta de espejo mágico para eventos",
+            "areaServed": [
+              { "@type": "AdministrativeArea", "name": "Ciudad de México" },
+              { "@type": "AdministrativeArea", "name": "Estado de México" }
+            ],
+            "availableLanguage": "es-MX"
+          },
+          {
+            "@type": "FAQPage",
+            "mainEntity": [
+              { "@type": "Question", "name": "¿En qué zonas está disponible?", "acceptedAnswer": { "@type": "Answer", "text": "Por ahora planeamos atender eventos en Ciudad de México y Estado de México. Cuéntanos el lugar y revisamos la disponibilidad para tu fecha." } },
+              { "@type": "Question", "name": "¿Puedo adaptar la experiencia a mi evento?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Los detalles de personalización se definirán al preparar tu cotización." } },
+              { "@type": "Question", "name": "¿Incluye cámara e impresiones?", "acceptedAnswer": { "@type": "Answer", "text": "El equipo admite distintas configuraciones. Confirmaremos los accesorios y entregables incluidos antes de cerrar cualquier renta." } }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
